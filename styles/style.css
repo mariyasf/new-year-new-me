@@ -21,7 +21,7 @@
 header {
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
-    width: 1550px;
+    width: 1515px;
     height: 800px;
 }
 
@@ -177,3 +177,71 @@ li {
     padding: 59px 617px 24px 0px;
 }
 
+/* footer style */
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    background: var(--Dark-01, #151414);
+    max-width: 1550px;
+    height: 577px;
+    gap: 250px
+}
+
+.footer-part {
+    padding: 130px 0px 0px 150px;
+    width: 50%;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-part p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 16px;
+}
+
+.icon {
+    margin-top: 31px;
+}
+
+.subscribe {
+    width: 50%;
+    display: block;
+    padding: 130px 250px 0px 0px;
+}
+
+.footer-sbs {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email {
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: var(--Dark-01, #151414);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 31px;
+    padding: 22px 158px 21px 21px;
+
+}
+
+.btn {
+    width: 170.106px;
+    height: 64px;
+    border-radius: 8px;
+    background: #005FAC;
+    margin-top: 16px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
