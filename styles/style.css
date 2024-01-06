@@ -84,3 +84,62 @@ main {
 li {
     list-style: none;
 }
+
+/* plan section */
+.plan {
+    max-width: 1550px;
+}
+
+.plans-title {
+    margin-top: 130px;
+    padding-bottom: 50px;
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 64px;
+}
+
+.plan-sector img {
+    width: 93px;
+    height: 93px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.a {
+    margin: 0px 113px 24px 64px;
+}
+
+.b {
+    margin: 0px 31px 21px 32px;
+}
+
+.c {
+    margin: 0px 62px 24px 63px;
+}
+
+.d {
+    margin: 0px 40px 24px 41px;
+}
+
+.plan-title {
+    color: var(--Dark-01, #151414);
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-descriptoon {
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0px;
+}
