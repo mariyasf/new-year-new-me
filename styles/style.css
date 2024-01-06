@@ -9,7 +9,7 @@
 header {
     background-image: url("../images/banner/banner3.png");
     background-repeat: no-repeat;
-    width: 1600px;
+    width: 1550px;
     height: 800px;
 }
 
@@ -22,7 +22,7 @@ header {
 .header-section h1 {
     padding-bottom: 24px;
     font-size: 65px;
-    font-weight: 700;
+    font-weight: 600;
 
 }
 
@@ -38,5 +38,49 @@ header {
     background: #FFF;
     border-color: white;
     width: 160px;
-    height: 64px; 
+    height: 64px;
+}
+
+/* main style */
+main {
+    padding: 140px;
+    /* max-width: 1500px; */
+}
+
+/* failures style */
+.failures {
+    display: flex;
+    margin: 0 auto;
+}
+
+.failuer-container {
+    padding-left: 134px;
+}
+
+.failuer-container h3 {
+    color: var(--Dark-01, #151414);
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 230px;
+    padding-bottom: 24px;
+}
+
+.failuer-container p {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 16px;
+}
+
+.failures-check {
+    display: flex;
+}
+
+.failures-check svg {
+    padding-right: 10px;
+}
+
+li {
+    list-style: none;
 }
